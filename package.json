@@ -1,0 +1,24 @@
+{
+  "name": "pratibimb",
+  "version": "1.0.0",
+  "description": "this is a server",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "ayush nautiyal",
+  "license": "MIT"
+}
