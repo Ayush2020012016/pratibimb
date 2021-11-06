@@ -1,0 +1,40 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  style 
+    include ./create.css 
+  title Create-Post
+section.nav-boss
+  nav.nav-high
+    a(href='index.html')
+      img(src='../static/img/pratibimb.png')
+      .high-links
+        ul
+          li
+            a(href='#') Home
+          li
+            a(href='#') Top Posts
+          li
+            a(href='#') Sections
+          li
+            a(href='#') About
+      button#btn
+        a(href='#') Login
+  .info
+    h3 #Create-Post
+  form.main(method='post' action='/' enctype='multipart/formdata')
+    .cover
+      input#upload-img(type='file' name='myfile')
+    .title
+      textarea.title-box(type='text' placeholder='Blog Title' name='title')
+    .space
+      textarea.space-box(type='text' placeholder='Start Writing' name='blogspace')
+    .buttons
+      .other-btn
+        button#img Add Image
+        button#pdf Add PDF
+        button#docs Add Docs
+      .publish-btn
+        button#publish Publish
